@@ -11,9 +11,7 @@ local M = {}
 M.config = config
 
 ---@param args Config?
-M.setup = function(args)
-  vim.o.iskeyword = "@,48-57,_,192-255,-"
-end
+-- M.setup = function(args) end
 
 M.coherse_keyword = module.coherse_keyword
 -- M.coherse_visual = module.coherse_visual
